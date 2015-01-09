@@ -1,0 +1,83 @@
+/* Card styling */
+
+td-cards {
+    display: block;
+}
+
+td-card {
+    position: absolute;
+    left: 50%;
+    margin: 80px 0 40px -150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #999;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-color: rgb(255,255,255);
+}
+
+.td-card .title {
+    height: 40px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+td-card .image {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+td-card img {
+    height: 258px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Overlay styling*/
+
+.overlayBox {
+    position: absolute;
+    left: 50%;
+    height: 98%;
+    width: 100%;
+    top: -80px;
+    opacity: 0;
+    margin: 80px 0 0 -149px;
+}
+
+.boxed {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+.yes-text {
+    background-color: rgba(0,256,0,0.2);
+}
+
+.yesBox {
+    margin: 10% 60% 0% 10%;
+    border: 2px solid #00FF00;
+    color: rgb(0, 256, 0);
+    -webkit-transform: rotate(-25deg);
+}
+
+.no-text {
+    background-color: rgba(256,0,0,0.2);
+}
+
+.noBox {
+    margin: 10% 10% 0% 60%;
+    border: 2px solid #FF0000;
+    color: rgb(256, 0, 0);
+    -webkit-transform: rotate(25deg);
+}
+
+.fade {
+    -webkit-transition: 0.2s opacity linear;
+    transition: 0.2s opacity linear;
+    opacity: 0;
+}
