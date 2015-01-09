@@ -1,0 +1,7 @@
+{
+    "name": "Devdactic Tinder style example",
+    "description": "A simple Ionic app for Heroku",
+    "repository": "https://github.com/saimon24/devdactic-tinderstyle",
+    "logo": "http://devdactic.com/wp-content/uploads/2014/09/header.png",
+    "keywords": ["ionic", "devdactic", "tinder", "cards"]
+}

@@ -32,6 +32,6 @@
     "commit": "2a20a3b1d059fe312332a0eafe2a568af96feacd"
   },
   "_source": "git://github.com/driftyco/ionic-contrib-tinder-cards.git",
-  "_target": "master",
+  "_target": "*",
   "_originalSource": "ionic-contrib-tinder-cards"
 }
